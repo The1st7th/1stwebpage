@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>Michael's favorite things</title>
+    <style>
+      .parent{
+        text-align: center;
+      }
+      .parent>ul{
+        display:inline-block;
+        text-align: left;
+      }
+      .parent>ol{
+        display:inline-block;
+        text-align: left;
+      }
+
+    </style>
   </head>
-  <body>
-    <h1>My favorite things</h1>
+  <body style="background-color:#EE2737">
+    <div class="parent">
+    <h1><font size ="100">My favorite things</font></h1>
     <h2>These are a few of my favorite things.</h2>
 
     <h3>People</h3>
@@ -21,29 +37,30 @@
           <li><em>Steve</em></li>
           <li><em>Carol</em></li>
         </ul>
-      </li>
-      <li>
+        </li>
+        <li>
         <a href="http://www.example.com/jessica.html">
           My friend <strong>Jessica</strong><br>
           <img src="img/jessica.jpg" alt="A photo of Jessica."style="width:200px;height:200px;">
         </a>
-      </li>
-      <li>
+        </li>
+        <li>
         <a href="http://www.example.com/Candy.html">
           My friend <strong>Candy</strong><br>
           <img src="img/candy.jpg" alt="A photo of Candy."style="width:200px;height:200px;">
         </a>
       </li>
-  </ul>
+    </ul>
 
-  <h3>Flavors of ice cream</h3>
-  <p>These are my three favorites, in order:</p>
-  <ol>
-    <li>Pistachio</li>
-    <li>Malted Milk Chocolate</li>
-    <li>Black Licorice (really!)</li>
-  </ol>
+    <h3>Flavors of ice cream</h3>
+      <p>These are my three favorites, in order:</p>
+      <ol>
+        <li>Pistachio</li>
+        <li>Malted Milk Chocolate</li>
+        <li>Black Licorice (really!)</li>
+      </ol>
 
   <p>Thanks for reading about me!</p>
+  </div>
  </body>
 </html>
