@@ -28,4 +28,4 @@ _We used html and a little bit of css_
 
 *MIT*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2018 **_{Epicodus}_**
