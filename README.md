@@ -10,7 +10,7 @@ _The application is our first web page in html and first time using github._
 
 ## Setup/Installation Requirements
 
-* _All you need is a web browser to run the html.
+*_All you need is a web browser to run the html.
 
 ## Known Bugs
 
